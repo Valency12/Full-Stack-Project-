@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página web oficial de Innovación Digital - Soluciones tecnológicas innovadoras">
+    <title>Innovación Digital - Soluciones Tecnológicas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header id="header" class="main-header">
+        <div class="header-container">
+            <h1 class="company-name">Innovación Digital S.A.</h1>
+            <p class="company-description">
+                Somos una empresa líder en el desarrollo de soluciones tecnológicas innovadoras, 
+                especializados en transformación digital, desarrollo de software a medida y consultoría 
+                tecnológica para empresas de todos los tamaños.
+            </p>
+            <div class="mission-vision">
+                <div class="mission-vision-item">
+                    <h2 class="mission-vision-title">Misión</h2>
+                    <p class="mission-vision-text">
+                        Brindar soluciones tecnológicas de vanguardia que impulsen el crecimiento y 
+                        la eficiencia de nuestros clientes, ayudándolos a alcanzar sus objetivos 
+                        estratégicos mediante la innovación y la excelencia en el servicio.
+                    </p>
+                </div>
+                <div class="mission-vision-item">
+                    <h2 class="mission-vision-title">Visión</h2>
+                    <p class="mission-vision-text">
+                        Ser la empresa de referencia en soluciones tecnológicas en la región, 
+                        reconocida por nuestra capacidad de innovación, calidad en el servicio 
+                        y compromiso con el éxito de nuestros clientes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección de Proyectos -->
+    <main>
+        <section id="proyectos" class="projects-section">
+            <h2 class="section-title">Proyectos Destacados</h2>
+            <div class="projects-container">
+                <!-- Proyecto 1 -->
+                <article class="project-card">
+                    <img src="https://via.placeholder.com/400x250/4a90e2/ffffff?text=Sistema+de+Gestión+ERP" 
+                         alt="Sistema de Gestión ERP - Plataforma integral de gestión empresarial" 
+                         class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Sistema de Gestión ERP</h3>
+                        <p class="project-description">
+                            Desarrollo de una plataforma integral de gestión empresarial que unifica 
+                            procesos de contabilidad, recursos humanos, inventario y ventas. Implementado 
+                            con tecnologías modernas y arquitectura escalable para empresas medianas.
+                        </p>
+                        <a href="https://www.ejemplo.com/proyecto-erp" 
+                           class="project-link" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="Ver más detalles del proyecto Sistema de Gestión ERP">
+                            Ver más detalles →
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Proyecto 2 -->
+                <article class="project-card">
+                    <img src="https://via.placeholder.com/400x250/50c878/ffffff?text=App+Móvil+E-Commerce" 
+                         alt="Aplicación móvil de comercio electrónico para iOS y Android" 
+                         class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">App Móvil E-Commerce</h3>
+                        <p class="project-description">
+                            Aplicación móvil multiplataforma desarrollada en React Native que permite 
+                            a los usuarios realizar compras online de manera intuitiva. Incluye sistema 
+                            de pagos integrado, seguimiento de pedidos en tiempo real y recomendaciones 
+                            personalizadas basadas en IA.
+                        </p>
+                        <a href="https://www.ejemplo.com/proyecto-ecommerce" 
+                           class="project-link" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="Ver más detalles del proyecto App Móvil E-Commerce">
+                            Ver más detalles →
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Proyecto 3 -->
+                <article class="project-card">
+                    <img src="https://via.placeholder.com/400x250/f39c12/ffffff?text=Plataforma+Cloud+Analytics" 
+                         alt="Plataforma Cloud Analytics - Análisis de datos en la nube" 
+                         class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Plataforma Cloud Analytics</h3>
+                        <p class="project-description">
+                            Solución de análisis de datos en la nube que procesa grandes volúmenes 
+                            de información en tiempo real. Ofrece dashboards interactivos, reportes 
+                            automatizados y predicciones mediante machine learning para toma de 
+                            decisiones estratégicas.
+                        </p>
+                        <a href="https://www.ejemplo.com/proyecto-analytics" 
+                           class="project-link" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="Ver más detalles del proyecto Plataforma Cloud Analytics">
+                            Ver más detalles →
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section id="contacto" class="contact-section">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-container">
+                <form id="contact-form" class="contact-form" novalidate>
+                    <div class="form-group">
+                        <label for="nombre" class="form-label">Nombre completo <span class="required">*</span></label>
+                        <input type="text" 
+                               id="nombre" 
+                               name="nombre" 
+                               class="form-input" 
+                               placeholder="Ingresa tu nombre completo"
+                               required 
+                               aria-required="true"
+                               aria-describedby="nombre-error">
+                        <span id="nombre-error" class="error-message" role="alert"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="form-label">Correo electrónico <span class="required">*</span></label>
+                        <input type="email" 
+                               id="email" 
+                               name="email" 
+                               class="form-input" 
+                               placeholder="ejemplo@correo.com"
+                               required 
+                               aria-required="true"
+                               aria-describedby="email-error">
+                        <span id="email-error" class="error-message" role="alert"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensaje" class="form-label">Mensaje <span class="required">*</span></label>
+                        <textarea id="mensaje" 
+                                  name="mensaje" 
+                                  class="form-textarea" 
+                                  rows="6" 
+                                  placeholder="Escribe tu mensaje aquí..."
+                                  required 
+                                  aria-required="true"
+                                  aria-describedby="mensaje-error"></textarea>
+                        <span id="mensaje-error" class="error-message" role="alert"></span>
+                    </div>
+
+                    <button type="submit" class="submit-button" aria-label="Enviar formulario de contacto">
+                        Enviar Mensaje
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer id="footer" class="main-footer">
+        <div class="footer-container">
+            <div class="social-links">
+                <h3 class="footer-title">Síguenos en nuestras redes sociales</h3>
+                <ul class="social-list" role="list">
+                    <li>
+                        <a href="https://www.facebook.com" 
+                           class="social-link facebook" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="Síguenos en Facebook">
+                            Facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com" 
+                           class="social-link twitter" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="Síguenos en Twitter">
+                            Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com" 
+                           class="social-link linkedin" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="Síguenos en LinkedIn">
+                            LinkedIn
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com" 
+                           class="social-link instagram" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="Síguenos en Instagram">
+                            Instagram
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Innovación Digital S.A. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Validación del formulario
+        const form = document.getElementById('contact-form');
+        
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            let isValid = true;
+            const nombre = document.getElementById('nombre');
+            const email = document.getElementById('email');
+            const mensaje = document.getElementById('mensaje');
+            
+            // Validar nombre
+            const nombreError = document.getElementById('nombre-error');
+            if (nombre.value.trim() === '') {
+                nombreError.textContent = 'El nombre es requerido';
+                nombre.setAttribute('aria-invalid', 'true');
+                isValid = false;
+            } else if (nombre.value.trim().length < 2) {
+                nombreError.textContent = 'El nombre debe tener al menos 2 caracteres';
+                nombre.setAttribute('aria-invalid', 'true');
+                isValid = false;
+            } else {
+                nombreError.textContent = '';
+                nombre.setAttribute('aria-invalid', 'false');
+            }
+            
+            // Validar email
+            const emailError = document.getElementById('email-error');
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (email.value.trim() === '') {
+                emailError.textContent = 'El correo electrónico es requerido';
+                email.setAttribute('aria-invalid', 'true');
+                isValid = false;
+            } else if (!emailRegex.test(email.value)) {
+                emailError.textContent = 'Ingresa un correo electrónico válido';
+                email.setAttribute('aria-invalid', 'true');
+                isValid = false;
+            } else {
+                emailError.textContent = '';
+                email.setAttribute('aria-invalid', 'false');
+            }
+            
+            // Validar mensaje
+            const mensajeError = document.getElementById('mensaje-error');
+            if (mensaje.value.trim() === '') {
+                mensajeError.textContent = 'El mensaje es requerido';
+                mensaje.setAttribute('aria-invalid', 'true');
+                isValid = false;
+            } else if (mensaje.value.trim().length < 10) {
+                mensajeError.textContent = 'El mensaje debe tener al menos 10 caracteres';
+                mensaje.setAttribute('aria-invalid', 'true');
+                isValid = false;
+            } else {
+                mensajeError.textContent = '';
+                mensaje.setAttribute('aria-invalid', 'false');
+            }
+            
+            if (isValid) {
+                alert('¡Formulario enviado exitosamente! Gracias por contactarnos.');
+                form.reset();
+            }
+        });
+    </script>
+</body>
+</html>
