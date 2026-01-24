@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@pluszone.com",
+      "password": "admin123",
+      "name": "Administrador",
+      "user_type": "admin",
+      "image_url": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=400&h=400&fit=crop",
+      "description": "Usuario administrador del sistema",
+      "tech_stack": ["Admin", "Management", "System"],
+      "created_at": "2024-01-01T00:00:00Z",
+      "is_active": true
+    },
+    {
+      "id": 2,
+      "email": "admin2@pluszone.com",
+      "password": "admin123",
+      "name": "Admin Secundario",
+      "user_type": "admin",
+      "image_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
+      "description": "Segundo usuario administrador",
+      "tech_stack": ["Admin", "Management"],
+      "created_at": "2024-01-01T00:00:00Z",
+      "is_active": true
+    }
+  ],
+  "profiles": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "name": "María García",
+      "description": "Senior Full Stack Developer",
+      "detailed_description": "Desarrolladora con más de 8 años de experiencia en aplicaciones web modernas. Especializada en React, Node.js y arquitectura de microservicios.",
+      "tech_stack": ["React", "Node.js", "TypeScript", "PostgreSQL", "AWS", "Docker"],
+      "salary": "$80,000 - $120,000",
+      "image_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
+      "role": "candidate"
+    }
+  ],
+  "swipes": [],
+  "matches": [],
+  "messages": []
+}
+
